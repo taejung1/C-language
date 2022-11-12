@@ -1,2 +1,4 @@
 js/node_modules
+
+# 폴더무시
 .vscode/
