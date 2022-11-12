@@ -10,7 +10,7 @@ int main()
 		if(n1 > 1) {
 			m1 = n1 - (n1 -1);
 		} else {
-			m1 = n1 - ;
+			
 		}
 	}
 
