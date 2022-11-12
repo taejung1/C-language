@@ -1,22 +1,15 @@
 #include <stdio.h>
 
-int main()
-{
-	int n1, n2, n3, n4, n5, n6;
-	int m1, m2, m3, m4, m5, m6;
-	scanf("%d %d %d %d %d %d", &n1, &n2, &n3, &n4, &n5, &n6);
+int main() {
+  int list[6], list2[6] = {1, 1, 2, 2, 2 , 8};
 
-    if(!n1 == 1) {
-		if(n1 > 1) {
-			m1 = n1 - (n1 -1);
-		} else {
-			
-		}
-	}
+  for (int i = 0; i < 6; i++) {
+    scanf("%d", &list[i]);
+  }
 
-	printf("%d" , m1);
+  for (int i = 0; i < 6; i++) {
+    printf("%d ", list2[i] - list[i]);
+  }
 
-	return 0;
+  return 0;
 }
-
-//보류
