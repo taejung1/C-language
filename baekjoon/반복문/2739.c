@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main()
 {
     int n;
@@ -5,4 +7,6 @@ int main()
     for(int i = 1;i <= 9;i++){
         printf("%d * %d = %d\n", n ,i,  i *n);
     }
+
+    return 0;
 }

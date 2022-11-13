@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main()
 {
     int n,sum;
@@ -7,5 +9,6 @@ int main()
         sum = i + sum;
     }
     printf("%d" , sum);
+
     return 0;
 }
